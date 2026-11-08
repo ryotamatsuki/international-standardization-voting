@@ -3,6 +3,7 @@ Date: 2026-11-09 (Asia/Tokyo)
 Research branch: research/p1-proof-novelty-gate-20261108
 Scope: new *user-count* network externality model, not the earlier exogenous compatible-brand-count P1.
 Version status: **research inventory, not a finished theorem manuscript or external referee report**.
+**Current tally:** 19 technical/price/welfare lemmas (KS-L01–L19), 15 adoption/voting propositions (KS-P01–P15), 7 counterfactual corollaries (KS-C01–C07), and 10 open research questions (KS-U01–U10): **41 derived/conditional results + 10 unresolved candidates**. These are structured labels for future reclassification, not assertions of theorem-level originality.
 
 ## 0. Status labels and strict boundary
 
@@ -259,8 +260,8 @@ The original exogenous compatible-brand-count P1 has exact price p0=(1+d/3), p1=
 
 ## IX. Evidence map / reproduction
 
-- Existing exact primary program: verify_ks_userbase_vote_reversal.py (executed in the ChatGPT container on 2026-11-09; originally created 2026-11-08).
-- New independent exact checks during this inventory: 21 strict incumbent L-improvement signs; 3 zero signs; 16 fixed point spectra; β0=.1, β1=.5 reduced-game SPNE counts; beta=0-installed-base CS and all-four profit gains; threshold hcrit; derivative of center support threshold; gross world benefit above G3.
+- Primary exact script, verified locally: [code/verify_ks_userbase_vote_reversal_20261109.py](../code/verify_ks_userbase_vote_reversal_20261109.py).
+- New independent exact checks during this inventory: [code/test_ks_inventory_extra_20261109.py](../code/test_ks_inventory_extra_20261109.py) (executed locally: 21 strict incumbent L-improvement signs; 3 zero signs; 16 fixed-point spectra; β0=.1, β1=.5 reduced-game SPNE counts; threshold hcrit; derivative of center support threshold; gross world benefit above G3). A separate independently run zero-installed-base comparison checked CS and all four profit gains.
 - Existing repository note: proofs/p1_ks_userbase_network_reversal_20261108.md.
 - Original brand-count P1: proofs/p1_complete_backward_induction_gameform_20261108.md.
 - Literature verification: Stadler, Tobler Trexler & Unsorg (2022), Network and Spatial Economics 22, 903–913, https://doi.org/10.1007/s11067-022-09572-x; Katz & Shapiro (1985), AER 75, 424–440; Gandal & Shy (2001), Journal of International Economics 53, 363–383.
