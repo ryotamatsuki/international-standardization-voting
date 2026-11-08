@@ -1,5 +1,7 @@
 # Gate 4 — ISO technical objections, abstention, and the endogenous cost of opposition
 
+> **2026-11-08 独立先行研究査定：主定理としての新規性は低い。** 本節の2人反対票ゲームは Diekmann (1985) の Volunteer's Dilemma と利得の定数平行移動で厳密に同型。混合戦略承認確率は純粋戦略均衡では成立せず、唯一の理論予測ではない。ISO制度への補助的頑健性検証として維持する。[先行研究査定](../literature/gate4_independent_prior_art_audit_20261108.md) · [厳密な同型検査](../code/test_gate4_prior_art_equivalence.py)
+
 **Status:** Analytical, conditional theorem for a minimal ISO-type final ballot; 2026-11-08. This extends the P1 national-preference model but **does not** claim that economic protectionism alone constitutes a valid technical objection.
 
 ## 1. Exact institutional mapping (ISO/IEC Directives Part 1, 2026)
