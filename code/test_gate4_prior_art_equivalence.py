@@ -23,7 +23,7 @@ for a0,a2 in product((0,1),repeat=2):
     assert all(s.simplify(std[i]-gate[i]-[L0,L2][i])==0 for i in range(2))
 
 # Verify two distinct pure Nash equilibria, and mixed best-response cutoff.
-example={a: tuple(x.subs({L0:5,L2:7,c0:1,c2:2})
+example={a: tuple(s.sympify(x).subs({L0:5,L2:7,c0:1,c2:2})
                   for x in gate4(*a)) for a in product((0,1),repeat=2)}
 equilibria=[]
 for (a,b),u in example.items():
