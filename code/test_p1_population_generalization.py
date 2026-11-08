@@ -47,7 +47,7 @@ for dd,expected_votes,expected_world in [
         (R(4,5),(0,1,0,1),R(847,900))]:
     W=[factor(x.subs(values).subs({d:dd,N:1})) for x in dW]
     W[3]-=kL
-    assert tuple(int(q>0) for q in W)==expected_votes,(dd,W)
+    assert tuple(1 if q>0 else 0 for q in W)==expected_votes,(dd,W)
     assert sum(W)==expected_world, (dd,sum(W),expected_world)
     assert kL<G3.subs({d:dd,N:1})<kH
     print('d=',dd,'voting=',expected_votes,'world_gain_if_implemented=',sum(W))
