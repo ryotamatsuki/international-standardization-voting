@@ -6,6 +6,7 @@
 > - [Gate 2：企業の任意採用と投票の部分ゲーム](proofs/gate2_voluntary_adoption_equilibria.md)：公開による実装費低下の仮定下で、投票帰結に対応する厳密な継続Nash均衡の存在。
 > - [ISO制度・国内利害集約・新規性の独立監査](literature/p1_institutional_validity_prior_art_audit_20261108.md)：国家標準化機関の選好と、有効な反対票を区別。FDISの技術的反対理由と承認後実装費用仮定が主要な未解決点。対称人口でも産業利益の重みで反転する頑健性結果を検証。
 > - [人口比率の一般化：Median-pivot theorem](proofs/p1_population_generalization.md)：人口比率を固定せず、国別の賛成閾値と採択閾値を閉形式で導出。異なる人口比率でも4→3→2票となることを証明。
+> - **[Gate 4独立新規性査定：主定理は非推奨](literature/gate4_independent_prior_art_audit_20261108.md)** — 既知のVolunteer's Dilemmaと厳密に同型。P1主命題の補論と位置づける。
 > - [Gate 4：技術的反対票・棄権の内生化](proofs/gate4_technical_objections_and_abstention.md)：正式な技術的コメントを作成する費用による反対票の均衡と、混合戦略下の承認確率を閉形式で証明。
 > - [Gate 5A：第三者ツール供給のマイクロ基礎](proofs/gate5a_endogenous_tool_supply_channel.md)：ISO承認が実装費を直接下げるという仮定を使わず、第三者の適合性検証需要と固定費から任意採用の成立条件を導出（条件付き）。
 > - [Gate 3：先行研究との敵対的比較](literature/gate3_novelty_audit.md)：Spulberの定理と形式的に異なるが、新規性の独立性は未確定。
