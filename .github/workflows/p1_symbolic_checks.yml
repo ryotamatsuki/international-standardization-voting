@@ -26,3 +26,6 @@ jobs:
 
       - name: Verify arbitrary population-share P1 theorem
         run: python code/test_p1_population_generalization.py
+
+      - name: Verify stakeholder weighting and ISO ballot admissibility
+        run: python code/test_p1_institutional_robustness.py
