@@ -4,6 +4,7 @@
 >
 > - [Gate 1：閉形式の大域的Bertrand均衡証明](proofs/gate1_closed_form_global_bertrand.md)：候補均衡価格の一方的逸脱を排除。指定モデルの (0<d<6/7) で成立。
 > - [Gate 2：企業の任意採用と投票の部分ゲーム](proofs/gate2_voluntary_adoption_equilibria.md)：公開による実装費低下の仮定下で、投票帰結に対応する厳密な継続Nash均衡の存在。
+> - [人口比率の一般化：Median-pivot theorem](proofs/p1_population_generalization.md)：人口比率を固定せず、国別の賛成閾値と採択閾値を閉形式で導出。異なる人口比率でも4→3→2票となることを証明。
 > - [Gate 3：先行研究との敵対的比較](literature/gate3_novelty_audit.md)：Spulberの定理と形式的に異なるが、新規性の独立性は未確定。
 > - [統合判定と検証記録](research_log/2026-11-08_gate123_results.md) / [正確な有理数を使った検証コード](code/test_gate123_closed_form.py)
 >
