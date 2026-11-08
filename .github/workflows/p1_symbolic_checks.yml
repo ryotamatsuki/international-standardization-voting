@@ -1,0 +1,25 @@
+name: P1 symbolic validation
+
+on:
+  push:
+    branches:
+      - main
+      - research/p1-proof-novelty-gate-20261108
+  pull_request:
+
+jobs:
+  symbolic-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Verify exact gate sufficient conditions
+        run: python code/test_gate123_closed_form.py
+      - name: Verify voluntary adoption and votes
+        run: python code/p1_iso_endogenous_adoption.py
