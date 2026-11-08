@@ -106,7 +106,7 @@ if __name__=='__main__':
     print('ADOPTION:',verify_adoption(markets))
     xC,xW,W=compare_costs(markets,R(3,10))
     assert xC==R(2842,19097) and xW==R(6925,8869)
-    assert W==x*(13850-8869*x)/32400
+    assert simplify(W-x*(13850-8869*x)/32400)==0
     xC2,xW2,W2=compare_costs(markets,R(1,2))
     assert xC2==R(2842,32057) and xW2==R(6925,15349)
     assert W2.subs(x,1)<0<W2.subs(x,xC2)
@@ -117,7 +117,7 @@ if __name__=='__main__':
     ae=5*dd*(12-10*dd)/144
     be=25*dd*dd/144
     lower=factor(B-2*ae+2*(C-be)*x)
-    assert lower==dd*(96+6*dd+44*dd*x)/144
+    assert simplify(lower-dd*(96+6*dd+44*dd*x)/144)==0
     print('NO-GO: net social marginal gain >=',lower,
           'at every privately implementable scope x>0')
     print('PASS. NOTE: c0 unavoidable external adjustment cost not microfounded.')
