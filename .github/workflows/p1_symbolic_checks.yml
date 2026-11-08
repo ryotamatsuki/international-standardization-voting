@@ -23,3 +23,6 @@ jobs:
         run: python code/test_gate123_closed_form.py
       - name: Verify voluntary adoption and votes
         run: python code/p1_iso_endogenous_adoption.py
+
+      - name: Verify arbitrary population-share P1 theorem
+        run: python code/test_p1_population_generalization.py
