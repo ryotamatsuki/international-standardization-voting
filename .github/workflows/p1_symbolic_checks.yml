@@ -32,3 +32,6 @@ jobs:
 
       - name: Verify ISO documented-objection voting theorem
         run: python code/test_gate4_iso_technical_objections.py
+
+      - name: Verify complementary-tool supply microfoundation
+        run: python code/test_gate5a_tool_supply.py
