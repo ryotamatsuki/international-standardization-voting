@@ -29,3 +29,6 @@ jobs:
 
       - name: Verify stakeholder weighting and ISO ballot admissibility
         run: python code/test_p1_institutional_robustness.py
+
+      - name: Verify ISO documented-objection voting theorem
+        run: python code/test_gate4_iso_technical_objections.py
