@@ -1,7 +1,7 @@
 # P1 全継続ゲームの後ろ向き帰納法による解 — Game-Form Freeze
 
 **Date:** 2026-11-08  
-**Evaluated branch:** \`research/p1-proof-novelty-gate-20261108\`  
+**Evaluated branch:** `research/p1-proof-novelty-gate-20261108`  
 **Scope:** 4-country, 4-firm ISO-*style* four valid yes/no votes, Gate 2 implementation-cost benchmark. Gate 4 (technical negative ballots), Gate 5A (tool supply), and P2 endogenous proposals are **different games**, not automatically part of the core game.
 
 ## I. Game form fixed before solving
@@ -123,6 +123,6 @@ The existence and globally optimal unilateral price responses for the displayed 
 The present theorem is a **complete solution of the finite voting/adoption game with the audited pricing equilibrium selection in each product-market subgame**. Any attempt to claim more must supply a new theorem addressing that remaining continuous price-game correspondence. ISO actual technically justified No ballots, abstention denominators and later negotiation also constitute separate models and are excluded from this exact baseline.
 
 ## VII. Reproduction
-The independent executable SymPy checker evaluates all 16 states, the strict/weak incumbent dominance price difference, all three relevant consumer surplus formulas, the four continuation-pair national payoff differences, all 16 vote profiles and their pure Nash characterization, plus 1,536 exact sufficient-condition inequalities. See companion code \`code/solve_p1_full_backward_20261108.py\`, and original proof \`proofs/gate1_closed_form_global_bertrand.md\`.
+The independent executable SymPy checker evaluates all 16 states, the strict/weak incumbent dominance price difference, all three relevant consumer surplus formulas, the four continuation-pair national payoff differences, all 16 vote profiles and their pure Nash characterization, plus 1,536 exact sufficient-condition inequalities. See companion code `code/solve_p1_full_backward_20261108.py`, and original proof `proofs/gate1_closed_form_global_bertrand.md`.
 
 **Result:** pricing Nash *existence* yes, adoption all pure and mixed Nash *conditional on pricing selection* characterized completely, all pure ballot Nash characterized, pure SPNE plans for example counted completely, finite-stage trembling-hand refinement produces the desired equilibrium path. The global all-price-equilibrium uniqueness question remains open.
