@@ -35,8 +35,11 @@ def positive(expr,remove_zero_at_origin=False):
     if remove_zero_at_origin and v.subs(x,0)==0:
         v=factor(v/x)
     polynomial=Poly(v,x)
-    assert polynomial.degree()<=1,('expected affine expression',v)
-    assert v.subs(x,0)>0 and v.subs(x,1)>0,v
+    n=polynomial.degree()
+    c=polynomial.all_coeffs()[::-1]
+    bernstein=[sum(c[k]*binomial(j,k)/binomial(n,k) for k in range(j+1))
+               for j in range(n+1)]
+    assert all(q>0 for q in bernstein),(v,bernstein)
 
 def verify_pricing(market):
     n=0
@@ -52,6 +55,7 @@ def verify_pricing(market):
                    b[(i+2)%4]-b[i]+4-4*r[i],
                    b[(i+2)%4]-b[i]+4-4*le[i]]
             for z in tests:
+                assert Poly(factor(z),x).degree()<=1
                 positive(z)
                 n+=1
     assert n==896
