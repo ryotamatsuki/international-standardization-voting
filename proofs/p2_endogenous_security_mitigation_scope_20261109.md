@@ -37,7 +37,7 @@ With v=1,mu=10,D3=2, the optimizing hacker supplies e*=x/10 and incident probabi
 \[
 \boxed{\Delta\Pi_3^{adopt}(x)=x(3250-6179x)/32400}.
 \]
-Therefore the maximum implementable scope is \(x^A=3250/6179\approx0.52597508\): strict adoption below it, strict refusal above it. At x=xA entrant3 is indifferent, so the exact upper-bound outcome requires an explicitly assumed **adopt-at-indifference tie rule**, or can be approximated by xA-epsilon. Unrefined multiple equilibria remain. For incumbents 0,1,2 the private L incentive remains unchanged; the original finite adoption game has 21 strictly profitable unilateral joins and 3 indifferent cases across all 16 state configurations.
+Therefore the maximum implementable scope is \(x^A=3250/6179\approx0.52597508\): strict adoption below it, strict refusal above it. At x=xA entrant3 is indifferent, so the exact upper-bound outcome requires an explicitly assumed **adopt-at-indifference tie rule**, or can be approximated by xA-epsilon. Unrefined multiple equilibria remain. For incumbents 0,1,2 the private L incentive remains unchanged; the original finite adoption game has 21 strictly profitable unilateral joins for x>0 and 3 identically indifferent cases across all 16 state configurations. At x=0, some of those 21 gains vanish; all reversal results here use x>0.
 
 ## 4. Exact nation-voting and welfare solutions
 Define c0=D0/10, c3=D3/10=1/5. If legacy mitigation is too costly to undertake, F0>=c0, all national changes relative to the rejected old state O, *conditional on voluntary gateway implementation*, are
