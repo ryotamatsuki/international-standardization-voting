@@ -35,3 +35,6 @@ jobs:
 
       - name: Verify complementary-tool supply microfoundation
         run: python code/test_gate5a_tool_supply.py
+
+      - name: Verify exact reduction of Gate 4 to prior art
+        run: python code/test_gate4_prior_art_equivalence.py
