@@ -21,3 +21,7 @@ Date 2026-11-09; research branch version_migration_prior_art_minimal_game. This 
 - If such a mechanism cannot be derived, cease R12 and return to original JPET project or another frontier. The user requested economics-first meaningful novelty, not endless near-trivial thresholds.
 
 **Verdict:** Useful mathematical screening proof, but fails referee originality and independent economic-significance thresholds for a submission. Source links and access levels in literature/version_migration_prior_art_exact_20261109.md.
+
+
+## Late close collision (included before final journal decision)
+Kretschmer & Claussen (2016), *Strategy Science*, DOI https://doi.org/10.1287/stsc.2015.0009 empirically demonstrate the *direct legacy installed-base benefit* of backward compatibility and the *negative supply response in new software*, conditional on generation age and innovation leap. Cox, Crosby & McKenzie (2023), *Strategy Science*, DOI https://doi.org/10.1287/stsc.2022.0177 independently show old-generation software gains with new-generation cannibalization and version-introduction timing consequences. Therefore the "compatibility has opposite effects on new versus old investment" narrative is ALREADY KNOWN IN THE DATA. The minimal model's U-shaped intensity derivative is precise but probably a known general strategic-complementarity comparative static; not yet a publishable new mechanism.
