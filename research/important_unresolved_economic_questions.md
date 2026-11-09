@@ -1,0 +1,27 @@
+# Economically consequential unresolved questions: institutions, agents, outcomes
+As of 2026-11-09. This is a research QUESTION inventory. Statements tagged [OBS] source-supported observation; [HYP] unproven behavior prediction.
+
+## Q1. Harmonized technical standards versus internationally accepted certificates (highest priority)
+[OBS] OECD (2026-11-05, Trade Policy Paper 307) documents that common standard text alone does not ensure acceptance of foreign conformity assessment or frictionless border processing. WTO documents testing and certification procedures as potential trade frictions; METI differentiates mutual recognition of conformity-assessment results from mutual accreditation. [HYP] Harmonizing a technical standard can alter the incentives of domestic producers and regulators to set/import conformity verification costs; hence text-level harmonization's trade effect may be *conditioned by or offset by* downstream recognition policy. This last strategic substitution is NOT evidenced as universal and may be covered by old strategic barriers literature. Welfare consequences include export entry and consumer choice. Observables: standards/document equivalence, CAB recognition, re-testing counts, testing delays, exporter entry and landed price.
+- Primary: https://doi.org/10.1787/56f2cfc7-en ; https://www.wto.org/english/tratop_e/tbt_e/tbt_info_e.htm ; https://www.meti.go.jp/policy/economy/hyojun-kijun/mr/mr.html
+
+## Q2. Open standards plus proprietary/third-party interfaces (multi-homing)
+[OBS] Berends et al. 2026 analyze 97 smart-home platforms and find firms progressively combine rather than replace platform modes, using both third-party standards and proprietary first-party standards. [HYP] A more harmonized interface *could* increase investment in proprietary extensions rather than replace them, potentially leaving cross-vendor use unchanged while altering entry barriers. Beware routine differentiation and prior portfolio papers. Outcome: supported protocols, reachable devices, complement supply, prices, entry. https://doi.org/10.1016/j.respol.2026.105609
+
+## Q3. Optional certification profiles and effective interoperability
+[OBS] OCA requires Core for OCPP 2.0.1 but offers optional advanced-security, smart-charging and ISO15118 certification, with per-product certificate metadata. [OBS] Ott et al. 2026 describes specification dilution strategies; conformity != field interoperability. [HYP] Scope changes that are not strategically separable might change who certifies optional functions and how reliably vendors connect. Not new just because “extra feature => fewer implementers.” Data could test optional flag take-up, not pairwise interop without linked test microdata. https://openchargealliance.org/certificationocpp/certification-ocpp-2-0-1/ ; https://doi.org/10.1093/joclec/nhag023
+
+## Q4. Cross-generation compatibility and private bridge tooling
+[OBS] OCPP 1.6 and 2.0.1 are not backward compatible; OCPP 2.1 is backward-compatible with 2.0.1, per OCA. [HYP] Technical-body commitments to upgrade windows may change whether complement suppliers invest in the new generation versus support transition tooling. Old installation investment tradeoffs are not new; a new result needs independent policy commitment feedback. https://openchargealliance.org/faq/
+
+## Q5. Domestic standards-body composition and post-publication implementation
+[OBS] ISO Open Data exposes current P/O membership and committee secretariats, not individual country DIS/FDIS votes or firm implementation. [HYP] Greater downstream/complement-maker representation changes selected testability, thus adoption and export access beyond ordinary voting rents. Requires membership aggregation mechanism and selection correction, not “national governments vote to maximize national welfare.” https://www.iso.org/open-data.html
+
+## Q6. Standards disclosure restrictions in geopolitical fragmentation
+[OBS] Chen & Xiao 2026 find export-control disclosure constraints reduce some U.S. proposers' relative SSO proposal influence. [HYP] Restrictions may also change the attainable transnational technical *quality* of standards, direction of innovation, and subsequent compatibility. Prior empirical paper already explains basic influence decline; require something beyond influence counts and unilateral disclosure loss. https://doi.org/10.1057/s41267-026-00856-9
+
+## Q7. Competition and interoperability with incomplete market coverage
+[OBS] Bertoletti 2026 and Bianchi et al. 2026 WP challenge universal welfare claims; resulting prices, coverage, quality investments are jointly endogenous. [HYP] Cross-border governance can shift welfare impact through country-specific user coverage; yet mere coverage dependence is old/current theory. Need a concrete missing empirical implication before proceeding. https://www.tse-fr.eu/publications/working-paper/does-interoperability-promote-competition-theory-and-evidence-digital
+
+## Boundary discipline
+ISO, IEC, OCA, 3GPP, IETF and state regulator MRAs have different voters, members, enforcement, national authority and publication/implementation structures. A single abstract body should not be equated to all. International standard publication ≠ national regulation ≠ product certification ≠ imported product release ≠ pairwise interop. JPET residual product similarity X is not the same variable as effective physical interoperability H.
