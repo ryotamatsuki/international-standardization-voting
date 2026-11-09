@@ -113,3 +113,12 @@ Start with a bounded three-paper collision test in exact order: **Zhao–Xia–S
 
 ### Pilot decision
 Use ISO 15118 as the **first candidate empirical feasibility pilot** for effective interoperability, because actual conformance/interoperability separation is expressly defined in the standard and public testing events are documented. ISO 20022 is a second domain to check external validity, not a combined pooled sample. No systematic causal estimate or new theorem is claimed by citing these cases.
+
+
+## 8. Critical mathematical compatibility warning: do not silently relabel JPET's X
+
+In the actually submitted JPET model, H contains public pairwise compatibility links and produces network utility through eta*H; X represents **residual product similarity** and enters B=rho*H+(1-rho)*X, affecting substitution and competitive payoffs. It **does not** redefine effective interoperability/technical conformance H. Thus the JPET design-response term D-L does **not by itself** prove that stronger formal technical standardization produces less **physical** interoperability or that products technically comply but fail to interoperate.
+
+Conversely, the GitHub Gandal-Shy/ISO model treats the discrete firm implementation state as determining compatibility networks but has no jointly endogenous residual characteristic analogous to JPET X. A formalization of effective interoperability as something distinct from either H or X would be a **new primitive** and an additional research burden. Do not claim the existing closed forms already solve that issue.
+
+Minimum honest research strategy: first ask whether any meaningful new prediction survives using H and X exactly as submitted, framed as *government consent and competition* rather than *physical interoperation*. Only if the original market cannot distinguish the measured implementation outcome and published prior art fails to explain the same observable behavior should a new compatibility-implementation function be added. No post-hoc game additions merely to force a desired paradox.
