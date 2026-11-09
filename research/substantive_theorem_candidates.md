@@ -36,3 +36,7 @@ For Priority 2, search the 2026 Research Policy study's precise theoretical gaps
 
 ### Submission recommendation
 **No-go for immediate international journal submission** from the newly derived D1/D2 theorem alone. Reassess Journal of Economics/Review of Industrial Organization only after an independently novel economic mechanism and competitive continuation are validated. Empirical research on optional certifications may progress as a separate study irrespective of theorem novelty.
+
+
+## Strong additional 2026 overlap discovered after formal candidate ranking
+Ott–Roter–Krämer–Ackermann (2026) https://doi.org/10.1093/joclec/nhag023 explicitly explain incumbent **adversarial standard dilution**, increasing irrelevant complex features to delay/disable interoperability, plus information withholding. The R5 title/claim "too much technical scope can reduce implementation" thus cannot even be pitched as a novel qualitative observation; the exact reduced-form adoption function is mathematically verified, but not novel economics. The legally compulsory EU regulatory case is different from voluntary OCA/ISO implementation; any future claim must prove WHY that distinct institution changes firm equilibrium, not merely rename it. This makes R5 **NO-GO as a journal headline**, and strengthens the priority of R11/R12 original-theorem collision tests.
