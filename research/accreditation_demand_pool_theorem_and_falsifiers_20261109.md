@@ -83,3 +83,23 @@ Argente, Moreira, Oberfield & Venkateswaran (2025), NBER WP34160 https://www.nbe
 
 ## Honest final assessment
 This pass made one theorem-with-counterexamples and checked a second institutional frontier. **No N3-confirmed novel economic proposition.** The valuable advancement is a reproducible negative screen ruling out an intuitively attractive but structurally fragile MRA partner–outsider trade-reversal claim, and preventing protocol-ossification relabeling. Another direction is required; stop treating it as a publishable theory.
+
+## New robustness result added after further analytic verification: Increasing hazard rate
+The initial exact theorem for uniform exporter-profit distributions extends to a large economically natural class **IFR** (increasing failure/hazard rate). This is a condition-dependent, proved **extension of the diagnostic lemma**, NOT a newly certified N3 result.
+
+Let each potential exporter have independently distributed gross operating surplus v≥0, with differentiable survival q(p)=Pr(v≥p), q(0)=1, 0<q(p)<1, q'(p)<0. Define the hazard rate λ(p)=−q'(p)/q(p) and cumulative hazard Λ(p)=−log q(p). Assume λ(p) is **nondecreasing**, p λ(p)<1, and the CAB picks the low-price/stable cost-recovery solution of M p q(p)=F. Post-MRA C retains this root and B can use the zero-price home CAB. Then
+E(M)=M q(p(M)),
+dE/dM = q(p)^2/[q(p)+p q'(p)]=q(p)/[1−p λ(p)].
+Because nondecreasing hazard implies
+pλ(p) ≥ ∫₀ᵖ λ(s)ds=−ln q(p)>1−q(p)
+for p>0, we have dE/dM>1 wherever the admissible stable root exists.
+Integrating from c to c+b shows E(c+b)>b+E(c), as in the uniform case. This provides an open range of distributions covering **uniform, exponential and Weibull with shape≥1** (with the correct fee branch), not just a knife-edge density.
+
+This conclusion STILL FAILS if the hazard decreases rapidly. Example q(p)=1−sqrt(p), b=.2,c=2,p_C=.2,F=c*.2*q(.2), yields:
+- before b+c exporters 1.2887192534196465
+- after B recognition 1.305572808999546
+- sign of change +0.016853555579899426, **opposite to the theorem**.
+For comparison with same b,c,p_C=.2: exp survival gives change −0.00412122431922235; Weibull shape2 −0.00792088649131939; uniform −0.011336769750681874.
+These checks were run in a separate Python session. This is a genuine **distribution-class robustness improvement**, but it does not cure the most damaging CAB-form ablation: a profit-maximizing monopolist picks constant p=0.5 for these uniform types and may yield increased aggregate entry after liberalization. It also does not prove national welfare effects, real-world use of shared non-profit CABs, or economic originality beyond Decker (2016) decline-network cost-recovery logic.
+
+**Revised audit:** algebraic and standard IFR distribution robustness PASS, organization-form robustness FAIL; no independent price-competition downstream microfoundation or original network-standardization mechanism proven. **N3 NOT VERIFIED.**
