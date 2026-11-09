@@ -94,3 +94,22 @@ https://www.iso.org/open-data.html (2026 source documentation):
 Start with a bounded three-paper collision test in exact order: **Zhao–Xia–Shaw 2007**, **Spulber 2019 Proposition 6**, and **Boom 2001 / Ruiz 2004** (consider jointly as one technology-choice family) against a single hypothesized committee technical-scope + private implementation result. Then perform a one-standard-family public-data feasibility pilot using ISO Open Data (metadata and pMembers), a named national catalogue and a named firm-side implementation measure. If no genuine both-stage effect with a reachable outcome is found, **STOP** and return to the existing JPET manuscript as a distinct study; don't add stages to force novel results.
 
 **Bottom line:** Realistic economic importance and empirical reach take priority over algebraic generality. This note does not claim to have proven a new independent theorem.
+
+
+## 7. Concrete and presently verified real-world technical families (added after official-source checks)
+
+### ISO 15118: EV charging communication
+- ISO 15118-20:2022 defines second-generation EV-to-EVSE application/network interface requirements. Official ISO metadata: https://committee.iso.org/cms/live/live/en/sites/isoorg/contents/data/standard/07/78/77845.html
+- ISO/PAS 15118-23:2026 publicly describes **conformance** test cases and expressly states that actual downstream *interoperability* testing involves implementation application logic beyond that conformance document; an exhaustive test suite is practically impossible. Official ISO Online Browsing Platform: https://www.iso.org/obp/ui?_escaped_fragment_=iso%3Astd%3Aiso%3Apas%3A15118%3A-23%3Aed-1%3Av1%3Aen
+- CharIN (2026) implementation guidance covers real ISO 15118-2 / ISO 15118-20 cross-generation TLS/certificate/protocol configuration failures, https://www.charin.global/technology/knowledge-base/
+- California Energy Commission 2025 VOLTS project report describes May 2023 cross-vendor tests involving EV, EVSE and system providers; https://www.energy.ca.gov/publications/2025/vehicle-interoperability-testing-symposium-volts
+- **Data caution:** having event descriptions and standards metadata does NOT mean raw pairwise interoperability success records are public or represent the market. Check public participant and outcome microdata first.
+- **Theoretical application:** separate formal technical content, implementer conformance and successful cross-vendor functionality. Do not equate implementation errors with strategically profitable proprietary design differences; distinguish deliberate strategic design from engineering defects.
+
+### ISO 20022: cross-border financial messaging
+- BIS CPMI updated requirements, published 26 Feb 2026, explicitly states variability in ISO 20022 implementation may undermine potential cross-border payments benefits; revisions aim to clarify harmonized data requirements, with adoption flexibility until 2027. https://www.bis.org/publications/harmonised-iso-20022-data-requirements-enhancing-cross-border-payments-updated-report
+- **Institutional caution:** payment networks' own mandates and central-bank requirements can make deployment non-voluntary, so ISO 20022 is not a generic clean example of unrestricted firm adoption. Distinguish public interface text from private payment-system rules and regulation.
+- **Empirical outcome possibility (not yet data-verified):** implementation-profile convergence, message repair/rejection rates, delays and cross-border processing costs; need permission and reproducible data.
+
+### Pilot decision
+Use ISO 15118 as the **first candidate empirical feasibility pilot** for effective interoperability, because actual conformance/interoperability separation is expressly defined in the standard and public testing events are documented. ISO 20022 is a second domain to check external validity, not a combined pooled sample. No systematic causal estimate or new theorem is claimed by citing these cases.
