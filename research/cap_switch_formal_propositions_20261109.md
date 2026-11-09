@@ -81,3 +81,14 @@ Maggi & Mrázová's Proposition 5 says an *international agreement*, in its part
 - Strategic and legal authenticity, published full theorem collision, and downstream market-price/welfare validation are NOT complete.
 
 **Editorial decision: RESEARCH (narrow conditional proposition only); NO-GO for immediate journal submission.**
+
+## Proposition 2: the binary-switch sign is not dependent on quadratic U
+Retain importer modes t∈{0,T}, exporter entry n=A+h−t, and a regime cost K>0. Replace quadratic U by **any C1 strictly concave** importer objective U(n) on a feasible open interval containing both n and n−T. Define
+D(h)=U(A+h−T)−K−U(A+h).
+Then
+D'(h)=U'(A+h−T)−U'(A+h)>0.
+If D(h_L)<0 and D(h_H)>0 for an interior h_L<h_H, there is a unique crossing h*∈(h_L,h_H), and the equilibrium regime switches from foreign test acceptance (below h*) to domestic duplicate verification (above h*). The exporter entry mass has a downward jump of exactly T at h*, despite the exogenous increase in h. A sufficiently small perturbation h2−h1<T around h* therefore decreases exporter entry. Proof follows from strict concavity, continuity and the intermediate value theorem; no quadratic special functional form is needed.
+
+**Necessary economic content:** A crossing is impossible if U is increasing over the whole relevant interval, because strict duplicate verification reduces n and costs K. A national/SSO preference for limiting entrants at the relevant state must be **microfounded**, not postulated as automatic benevolent government behavior. Strict concavity alone does not guarantee a crossing; the inequalities D(h_L)<0<D(h_H) are substantive and must be empirically/structurally justified.
+
+**Failure modes:** With multiple intermediate testing modes or endogenous foreign-recognition equivalences, jumps may shrink or disappear; with a smooth continuum the no-over-offset P0 applies. Nor does this generic single-crossing result establish novel economics: discrete choice and concavity are classical.
